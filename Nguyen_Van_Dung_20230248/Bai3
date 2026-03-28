@@ -1,0 +1,17 @@
+a = int(input("Nhập a: "))
+b = int(input("Nhập b: "))
+c = int(input("Nhập c: "))
+
+# a) Tổng và tích
+tong = a + b + c
+tich = a * b * c
+print("Tổng =", tong)
+print("Tích =", tich)
+
+# b) Hiệu (ví dụ a - b)
+print("Hiệu a - b =", a - b)
+
+# c) Chia a cho b
+print("Chia nguyên a // b =", a // b)
+print("Chia dư a % b =", a % b)
+print("Chia chính xác a / b =", a / b)
