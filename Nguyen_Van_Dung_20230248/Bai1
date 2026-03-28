@@ -1,5 +1,6 @@
-a = int(input("Nhập số a: "))
-b = int(input("Nhập số b: "))
+n = int(input("Nhập số nguyên dương: "))
 
-tong = a + b
-print("Tổng =", tong)
+if n % 2 == 0:
+    print("Đây là một số chẵn")
+else:
+    print("Đây là một số lẻ")

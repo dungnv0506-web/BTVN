@@ -1,17 +1,8 @@
-a = int(input("Nhập a: "))
-b = int(input("Nhập b: "))
-c = int(input("Nhập c: "))
+from datetime import datetime
 
-# a) Tổng và tích
-tong = a + b + c
-tich = a * b * c
-print("Tổng =", tong)
-print("Tích =", tich)
+nam_sinh = int(input("Nhập năm sinh: "))
+nam_hien_tai = datetime.now().year
 
-# b) Hiệu (ví dụ a - b)
-print("Hiệu a - b =", a - b)
+tuoi = nam_hien_tai - nam_sinh
 
-# c) Chia a cho b
-print("Chia nguyên a // b =", a // b)
-print("Chia dư a % b =", a % b)
-print("Chia chính xác a / b =", a / b)
+print(f"Năm sinh {nam_sinh}, vậy bạn {tuoi} tuổi")
