@@ -1,0 +1,4 @@
+Xin chào, đây là tệp được tạo bằng Python.
+Dòng thứ hai: Chúc bạn học lập trình vui vẻ!
+Dòng thứ ba: Python thật là mạnh mẽ.
+Đây là dòng được ghi thêm vào cuối tệp.
