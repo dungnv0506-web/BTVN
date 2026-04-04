@@ -1,0 +1,3 @@
+Xin chào
+Tôi là Long
+Đang học Python
